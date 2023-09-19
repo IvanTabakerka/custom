@@ -1,0 +1,51 @@
+.cookies.show {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+}
+.cookies {
+    border-radius: 28px 28px 0px 0px;
+    padding: 24px 140px 24px 100px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.cookies__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.cookies__row .btn_custom{
+    display: block;
+    float: none;
+    position: static;
+    padding: 15px 33px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.cookies__text {
+    max-width: 975px;
+    margin: 0;
+}
+@media screen and (max-width: 900px) {
+    .cookies {
+        padding: 24px;
+    }
+    .cookies__row {
+        flex-direction: column;
+    }
+    .cookies__row .btn{
+        margin: 20px 0 0 0;
+    }
+}
