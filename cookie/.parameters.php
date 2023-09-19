@@ -6,8 +6,6 @@
  * @var array $arCurrentValues
  * */
 
-use Bitrix\Main\Loader;
-
 
 $arComponentParameters = [
     "GROUPS" => [
