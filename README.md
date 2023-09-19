@@ -2,6 +2,7 @@
 
 
 # custom:cookies
+```php
 <?$APPLICATION->IncludeComponent(
 	"expresslab:cookie",
 	"",
@@ -16,3 +17,4 @@
 		"NAME" => "Безопасность персональных данных"
 	)
 );?>
+```
