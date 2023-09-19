@@ -4,7 +4,7 @@
 # custom:cookies
 ```php
 <?$APPLICATION->IncludeComponent(
-	"expresslab:cookie",
+	"costum:cookie",
 	"",
 	Array(
 		"BACKGROUND" => "#FFFFFF",
