@@ -4,7 +4,7 @@
 # custom:cookies
 ```php
 <?$APPLICATION->IncludeComponent(
-	"costum-main:cookie",
+	"custom-main:cookie",
 	"",
 	Array(
 		"BACKGROUND" => "#FFFFFF",
